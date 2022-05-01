@@ -11,6 +11,11 @@ html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
+
+::selection {
+    background: #FF6363;
+}
+
 ::-webkit-scrollbar {
     width: 0.7vw;
   }
